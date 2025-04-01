@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ButtonGroup from "./components/ButtonGroup";
 import Header from "./components/header";
 
 function App() {
@@ -9,16 +10,11 @@ function App() {
 		<>
 			<Header title="TimeTracking App" />
 			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>
+				<button type="button" onClick={() => setCount((count) => count + 1)}>
 					count may be {count}
 				</button>
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
 			</div>
-			<p className="read-the-docs">
-				Click on the Vite and React logos to learn more
-			</p>
+			<ButtonGroup />
 		</>
 	);
 }
