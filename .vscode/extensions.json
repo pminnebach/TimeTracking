@@ -5,6 +5,13 @@
     "github.vscode-github-actions",
     "azurite.azurite",
     "eamodio.gitlens",
-    "biomejs.biome"
+    "biomejs.biome",
+    "dsznajder.es7-react-js-snippets",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "usernamehw.errorlens",
+    "GitHub.github-vscode-theme",
+    "PKief.material-icon-theme",
+    "ms-vscode.powershell"
   ]
 }

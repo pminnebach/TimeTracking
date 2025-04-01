@@ -3,7 +3,10 @@ import Button from "./apiButton";
 
 const ButtonGroup: React.FC = () => {
 	return (
-		<div className="button-group">
+		<div
+			className="button-group"
+			style={{ display: "flex", flexDirection: "column", gap: "10px" }}
+		>
 			<Button buttonText="Daystart" />
 			<Button buttonText="Lunchstart" />
 			<Button buttonText="Lunchend" />

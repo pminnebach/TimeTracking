@@ -9,11 +9,6 @@ function App() {
 	return (
 		<>
 			<Header title="TimeTracking App" />
-			<div className="card">
-				<button type="button" onClick={() => setCount((count) => count + 1)}>
-					count may be {count}
-				</button>
-			</div>
 			<ButtonGroup />
 		</>
 	);
