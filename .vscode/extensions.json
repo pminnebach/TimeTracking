@@ -12,6 +12,7 @@
     "usernamehw.errorlens",
     "GitHub.github-vscode-theme",
     "PKief.material-icon-theme",
-    "ms-vscode.powershell"
+    "ms-vscode.powershell",
+    "wix.vscode-import-cost"
   ]
 }

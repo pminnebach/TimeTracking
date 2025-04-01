@@ -1,5 +1,14 @@
 {
 	"navigationFallback": {
 		"rewrite": "/index.html"
-	}
+	},
+	"routes": [
+		{
+			"route": "/*",
+			"headers": {
+				"Cache-Control": "must-revalidate, max-age=86400",
+				"Content-Encoding": "br"
+			}
+		}
+	]
 }
